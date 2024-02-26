@@ -113,6 +113,14 @@ installed in the virtual env.
    ```
    http://localhost:8000
    ```
+4. Below APIs can be used for Crud operations
+   ```
+   List patients: GET http://localhost:8000/patients/list
+   Get patient details: GET http://localhost:8000/patients/<id>
+   Create patient: POST http://localhost:8000/patients/create
+   Update patient: PUT http://localhost:8000/patients/<id>
+   Delete patient: DELETE http://localhost:8000/patients/<id>
+   ```
 
 ## Future enhancements
 1. I am using python and Django after a long time. It took me sometime to go over the documentation and understand different packages that I have installed. Given the time, the application can be improved a lot in terms of features.
